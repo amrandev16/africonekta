@@ -1,0 +1,384 @@
+
+@media (max-width:1024px){
+    .container{
+        width: (--container-width-md);
+    }
+    .nav_container img {
+        height: 2rem;
+    }
+    .ticket_wrpper {
+        right: 4rem;
+        top: 50px;
+        bottom: 0;
+    }
+    header img {
+        width: 100%;
+        margin-top: 2rem;
+        height: 26rem;
+    }
+    .header_footer_section {
+        background-color: var(--primary);
+        height: 7.5rem;
+    }
+    .header_footer {
+        display:flex;
+justify-content: center;
+        gap: 2rem;
+        position: relative;
+        z-index: 800;
+        top: -11rem;
+    }
+    .counter_wrapper {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 2rem;
+        padding: 40px 0px;
+        width: 100%;
+        position: relative;
+        box-shadow: 0px 0px 10px #dddddd21;
+    }
+    .ticket {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+        margin: 5rem 0;
+        border-radius: 1.1rem;
+    }
+    .ticket_card_wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .service_desc {
+        margin: 2rem;
+        padding: 2rem 0;
+        display: inline-block;
+        justify-items: center;
+        text-align: center;
+        width: 60rem;
+    }
+    .partner_wrapper {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-content: center;
+    }
+    .product_wrapper {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        gap: 1rem;
+        align-content: center;
+        margin-bottom: 1rem;
+    }
+    .imoji {
+        width: 400px;
+        height: 300px;
+        border-radius: 1rem;
+    }
+    .btn1 {
+        bottom: 2.5rem;
+    }
+    .btn2 {
+
+        bottom: 1.5rem;
+        left: 4rem;
+    }
+    .btn3 {
+        bottom: 1.5rem;
+        right: 16rem;
+    
+    }
+    .from::before {
+        content: '';
+        right: 12.5rem;
+    }
+        .gallery_wrapper {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 2rem;
+            justify-content: center;
+            margin: 2rem 0;
+            position: relative;
+        }
+        .book_name {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 0;
+            padding-bottom: 2rem;
+        }
+        .book_btn {
+
+            border-radius: 0.5rem;
+            font-size: 14px;
+            width: 6rem;
+        }
+        .book_tittle {
+            padding: -1rem 0;
+            margin-top: 2rem;
+        }
+        .cotract_container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            left: 0.5rem;
+            bottom: -55rem;
+        }
+        .end {
+
+            display: flex;
+            justify-content: space-evenly;
+            bottom: -52rem;
+        }
+        .cotract_container {
+    
+            bottom: -31rem;
+        }
+    }
+
+
+    /* ************* */
+    @media(max-width:768px) {
+     /* .container{
+        width: var(--container-width-md);
+     } */
+     .nav_menu {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+    header img {
+        margin-top: 1rem;
+        position: relative;
+        right: -2.1rem;
+        left: 0;
+        z-index: 50;
+    }
+    .ticket_wrpper {
+        width: 90%;
+        right: 2.4rem;
+        position: absolute;
+        top: 21rem;
+    }
+
+    header {
+        position: relative;
+        z-index: 900;
+        top: 3rem;
+        background-color: var(--primary);
+    }
+
+    .ticket_wrpper {
+        width: 90%;
+        right: -2.6rem;
+        position: relative;
+        top: 1rem;
+    }
+    .counter_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+  
+    }
+    .ticket_card_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+    .ticket {
+        margin: 1rem 0;
+      
+    }
+    .container.service_container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-top: 2rem;
+    }
+
+    .service_desc {
+        padding: 2rem 0;
+        display: inline-block;
+        width: 44rem;
+    }
+
+    .imoji {
+        width: 290px;
+        height: 288px;
+        border-radius: 1rem;
+    }
+
+    .btn3 {
+        bottom: 1rem;
+        right: 10rem;
+    }
+    .cotract_container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        left: 0;
+        position: absolute;
+        bottom: -75rem;
+        padding: 7rem 0 10rem 0;
+        gap: 1px;
+    }
+    .contracts1 {
+        width: 9rem;
+        padding: 10px;
+    }
+ 
+    .contracts2 {
+        width: 9rem;
+        padding: 10px;
+    }
+ 
+    .contracts3 {
+        width: 9rem;
+        padding: 10px;
+    }
+ 
+    .contracts4 {
+        width: 9rem;
+        padding: 5px;
+    }
+ 
+    .contracts5 {
+        width: 9rem;
+        padding: 10px;
+    }
+ 
+    .book_wrapper {
+        padding: 2rem;
+        width: 42rem;
+        left: -2rem;
+    }
+    .end {
+        top: 71rem;
+        gap: 9rem;
+    }
+
+    }
+
+    @media(max-width:375px) {
+        /* .container{
+            width:var( --container-width-sm) ;
+        } */
+        header img {
+            height: 14rem;
+        }
+        .ticket_wrpper {
+            width: 22.6rem;
+            left: 0.4rem;
+            position: relative;
+            top: 0rem;
+            height: 25rem;
+        }
+        .counter_wrapper h1{
+            font-size: 26px;
+        }
+        .counter_wrapper {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .ticket_card_wrapper {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .container.service_container {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .service_desc {
+            padding: 0rem;
+            width: 20rem;
+        }
+        .partner_wrapper {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            align-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .router_section h3 {
+            font-size: 26px;
+            line-height: 26px;
+            text-align: center;
+        }
+
+.flag_wrapper img{
+   max-width:10rem;
+}
+.flag_wrapper {
+    gap: 1rem;
+}
+
+.from::before {
+    content: '';
+    right: 4.5rem;
+}
+
+.place_money {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.imoji {
+    width: 306px;
+    height: 275px;
+    border-radius: 1rem;
+}
+
+.product_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.gallery_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.book_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: 100%;
+}
+
+.book_tittle h4 {
+    margin-bottom: 1rem;
+    max-width: 22rem;
+}
+
+.book_name {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 9px;
+    max-width: 0rem;
+}
+.book_wrapper {
+    background-color: #089D07;
+    gap: 1.5rem;
+    position: relative;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    align-items: center;
+    color: var(--normal);
+    display: grid;
+    left: 0;
+    width: 100%;
+}
+.cotract_container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    bottom: -153rem;
+}
+.book_wrapper {
+    left: -35px;
+    width: 23rem;
+}
+.end {
+    display: flex;
+    justify-content: space-evenly;
+    top: 151rem;
+}
+
+
+    }
